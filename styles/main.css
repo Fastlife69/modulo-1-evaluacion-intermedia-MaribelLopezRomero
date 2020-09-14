@@ -61,11 +61,11 @@ Estilos de la cabecera */
   font-family: 'Rubik', sans-serif;
   text-align: center;
   text-justify: center;
-
-  /* me falta que cada palabra ocupe una linea */
+  display: flex;
+  flex-direction: column;
 }
 @media all and (min-width: 768px) {
-}
+
 .header {
   width: 100%;
   position: fixed;
@@ -74,9 +74,8 @@ Estilos de la cabecera */
   justify-content: space-between;
   align-items: center;
 }
-
-/* 
-  Estilos de la cabecera */
+ 
+  /* Estilos de header*/
 
 .logo {
   width: 48.43%;
@@ -91,4 +90,9 @@ Estilos de la cabecera */
 }
 .item1 {
   margin-right: 20px;
+}
+
+/* Estilos de main */
+.title {
+  font-size: 40px;
 }
