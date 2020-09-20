@@ -3,7 +3,9 @@
   margin: 0px;
   box-sizing: border-box;
 }
-
+body{
+  font-family: "rubik";
+}
 .header {
   background-color: white;
   width: 100%;
@@ -27,7 +29,6 @@ Estilos de la cabecera */
 .logo {
   width: 48.43%;
   padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .list {
@@ -39,30 +40,40 @@ Estilos de la cabecera */
   align-items: center;
   padding-left: 0px;
 }
-.item1 {
-  margin-right: 6.25px;
-}
 
 .text-link {
-  font-family: 'Rubik', sans-serif;
+  /* font-family: 'Rubik', sans-serif; */
   color: #4a4a4a;
   text-decoration: none;
   font-size: 16px;
+  text-transform: uppercase;
+  padding-right: 3.125px;
+  padding-left: 6.25px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  
 }
 
 /* Estilos del main */
 
 .main {
   background-color: #3cdbc0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-justify: center;
 }
 .title {
   color: #ffffff;
   font-size: 30px;
-  font-family: 'Rubik', sans-serif;
-  text-align: center;
-  text-justify: center;
-  display: flex;
+  text-transform: capitalize;
+  width: 20px;
+  /* display: flex;
   flex-direction: column;
+  text-align: center;
+  text-justify: center; */
+
+  
 }
 @media all and (min-width: 768px) {
 
@@ -87,9 +98,6 @@ Estilos de la cabecera */
 .list {
   flex-wrap: nowrap;
   padding-right: 30px;
-}
-.item1 {
-  margin-right: 20px;
 }
 
 /* Estilos de main */
