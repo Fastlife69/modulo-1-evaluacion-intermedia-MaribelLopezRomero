@@ -102,5 +102,7 @@ Estilos de la cabecera */
 
 /* Estilos de main */
 .title {
-  font-size: 40px;
+  font-size: 150px;
+  display: flex;
+  justify-content: center;
 }
